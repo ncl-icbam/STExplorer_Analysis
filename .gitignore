@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+README_TOO.md
+*/data/*
+*/reports/*
+*/analysis_objs/*
+*/graphics_out/*
+*/manuscript/*
+Eye/scripts/first_run/*
+Lung/scripts/analysis_testing*
