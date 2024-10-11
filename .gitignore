@@ -3,6 +3,7 @@
 .RData
 .Ruserdata
 .DS_Store
+*.Rproj
 README_TOO.md
 */data/*
 */reports/*
@@ -11,4 +12,4 @@ README_TOO.md
 */manuscript/*
 Eye/scripts/first_run/*
 Lung/scripts/analysis_testing*
-!/data/data_source_publication.pdf
+!data_source_publication.pdf
