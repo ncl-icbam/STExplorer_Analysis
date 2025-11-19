@@ -16,6 +16,11 @@ Lung
 │   ├── analysis_5_additionalPlots.R (additonal annotation and other plots)
 │   └── analysis_6_reloadImages.R 	 (script to reload images into the SFE objects after saving)
 ├── data 
+│	├── hs_misc
+│	│	├── GeneSet_ECM.xlsx			(gene set used for calculating the fibrotic score)
+│	│	├── GeneSet_EMT.xlsx			(gene set used for calculating the epith-to-mesench score)
+│	│	├── GeneSet_SenMayo_human.xlsx  (gene set used for calculating the senescent score)
+│	│	└── GeneSet_TGFB.txt			(gene set used for calculating the responce to TGFB score)
 │	└── data_source_publication.pdf
 └── README.md
 ```

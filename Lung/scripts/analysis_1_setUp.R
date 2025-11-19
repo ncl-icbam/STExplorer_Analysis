@@ -138,7 +138,7 @@ otherGenes_ENSG <- setNames(
   annotation_gene$gene_name[annotation_gene$gene_name %in% otherGenes]
 )
 
-## SenMayo senescence markers group
+## SenMayo senescence markers group from MSigDB: https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/SAUL_SEN_MAYO
 senMayoGenes <- c("ACVR1B", "ANG", "ANGPT1", "ANGPTL4", "AREG", "AXL", "BEX3",
                   "BMP2", "BMP6", "C3", "CCL1", "CCL13", "CCL16",
                   "CCL20", "CCL24", "CCL26", "CCL3", "CCL3L1", "CCL4", "CCL5",
@@ -164,7 +164,7 @@ senMayoGenes_ENSG <- setNames(
   annotation_gene$gene_name[annotation_gene$gene_name %in% senMayoGenes]
 )
 
-## Epithelial to mesenchymal transition gene set from MSigDB HALLMARK GENESET
+## Epithelial to mesenchymal transition gene set from MSigDB: https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION
 emtGenes <- c("ABI3BP", "ACTA2", "ADAM12", "ANPEP", "APLP1", "AREG", "BASP1",
               "BDNF", "BGN", "BMP1", "CADM1", "CALD1", "CALU", "CAP2", "CAPG",
               "CD44", "CD59", "CDH11", "CDH2", "CDH6", "COL11A1", "COL12A1",
@@ -200,7 +200,7 @@ emtGenes_ENSG <- setNames(
 )
 
 
-## GO Extracellular Matrix gene set from MSigDB GO::CC GENESET
+## GO Extracellular Matrix gene set from MSigDB: https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/GO_EXTRACELLULAR_MATRIX
 ecmGenes <- c("A1BG", "A2M", "ABI3BP", "ACAN", "ACHE", "ADAM11", "ADAM19", "ADAMDEC1", "ADAMTS1",
               "ADAMTS10", "ADAMTS12", "ADAMTS13", "ADAMTS14", "ADAMTS15", "ADAMTS16", "ADAMTS17",
               "ADAMTS18", "ADAMTS19", "ADAMTS2", "ADAMTS20", "ADAMTS3", "ADAMTS4", "ADAMTS5", "ADAMTS6",
